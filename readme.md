@@ -74,7 +74,10 @@ git log
 ```
 # create and edit files
 
-nano
+nano ... create text files
+```
+nano readme.md
+```
 
 # State of the computer
 
@@ -93,4 +96,8 @@ git checkout master
 git commit ... set a checkpoint in the development process that you can come back to later if necessary.
 ```
 git commit -m "mensaje de confirmación"
+```
+ git pull ... receive updates from the remote repository.
+```
+git pull <nombre-remoto>
 ```
