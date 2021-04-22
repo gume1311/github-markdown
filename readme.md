@@ -21,17 +21,37 @@ git config --global user.name
 ```
 git config --global user.name "Gume Jimenez"
 ```
-
+git add ... Include the changes to the file (s) in your next commit.
+```
+git add readme.md
+```
 # Commands
 ## create a directory
-## shell
-## mkdir
 
+shell ... accepts the following commands after the -c option
+```
+git-shell-commands
+```
+
+mkdir ... create a new subdirectory or folder of the filesystem.
+```
+mkdir new_carpet
+```
+Git clon... download the existing source code from a remote repository
+```
+git clone https://github.com/gume1311/github-markdown/blob/main/readme.md
+```
+cd ... Change the current directory
+```
+cd markdown
+```
 # Delete a directory
 
-## shell
-## rmdir
 
+rmdir ... allows to delete a directory
+```
+rmdir readme.md
+```
 # navegate
 
 ## shell
@@ -49,3 +69,10 @@ git config --global user.name "Gume Jimenez"
 # State of the computer
 
 ## git status
+
+# branch
+git checkout ... mainly to switch from one branch to another. We can also use it to check files and commits.
+```
+git checkout master
+
+```
