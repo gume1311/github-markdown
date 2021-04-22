@@ -22,7 +22,7 @@
 ## find
 ## git log
 
-#create and edit files
+# create and edit files
 
 ## nano
 
