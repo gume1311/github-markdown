@@ -54,25 +54,43 @@ rmdir readme.md
 ```
 # navegate
 
-## shell
-## git diff
 
+git diff ... how changes between commits, commit and working tree, etc
+```
+git diff [<options>] [<commit>] [--] [<path>…​]
+```
+git push ... send your commits to the remote repository.
+```
+git push
+```
 # find files folders
-
-## find
-## git log
-
+find ... Find files anywhere in a Git repository
+```
+git find
+```
+git log ... Show commit logs
+```
+git log
+```
 # create and edit files
 
-## nano
+nano
 
 # State of the computer
 
-## git status
-
+git status ... to all the necessary information about the current branch.
+```
+git status
+```
 # branch
 git checkout ... mainly to switch from one branch to another. We can also use it to check files and commits.
 ```
 git checkout master
 
+```
+# save files
+
+git commit ... set a checkpoint in the development process that you can come back to later if necessary.
+```
+git commit -m "mensaje de confirmación"
 ```
